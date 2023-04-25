@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+ body{
+ background-image:url(media/wp2146192-musical-symbols-wallpapers.jpg);   
+   
+}
+
+.container{
+    width: 80%;
+    margin: 80px auto;
+
+}
+.container h1{
+    padding: 60px 0;
+    color: #fff;
+    font: 44px;
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+    position: relative;
+}
+
+.feature img{
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 70px;
+    
+}
+
+.small-img-row{
+    display: flex;
+    background: #efefef;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 85%;
+    position: relative;
+    right: 57px;
+    height: 70%;
+    bottom: 45px;
+}
+
+.small-img{
+    position: relative;
+}
+
+.small-img img{
+    width: 240px;
+}
+
+.small-img-row p{
+    margin-left: 20px;
+    color: #707070;
+    line-break: 22px;
+    font-size: 15px;
+}
+
+.play-btn{
+ width: 100px;
+ position: relative;
+ bottom: 330px;
+ left: 190px;
+ cursor: pointer;
+
+}
+
+.plaay-btn{
+    width: 50px;
+    position: relative;
+    bottom: 280px;
+    left: 40px;
+    cursor: pointer;
+}
+
+.playy-btn{
+    width: 50px;
+    position: relative;
+    bottom: 470px;
+    left: 40px;
+    cursor: pointer;
+}
+
+.pllay-btn{
+    width: 50px;
+    position: relative;
+    bottom: 250px;
+    left: 40px;
+    cursor: pointer;
+}
+
+.video-player{
+    width: 80%;
+    position: relative;
+    bottom: 870px;
+    left: 150px;
+    display: none;
+}
+
+.video:focus{
+    outline: none;
+}
+
+.pause-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

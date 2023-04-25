@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>video gallery - Easy tutorials </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>VIDEO GALLERY</h1>
+  <div class="row">
+    <div class="col">
+      <div class="feature img">
+         <img src="media/IMG_0759.jpg" width="87%">
+         <img src="media/play.png" class="play-btn" onclick="playVideo('media/PSon_-__YU__(video_officielle)(360p).mp4')">
+      </div>
+    </div>
+    <div class="col">
+      <div class="small-img-row">
+        <div class="small-img">
+        <img src="media/IMG_20201102_112235_5.jpg" width="77%" style="height: 120px;">
+        </div>
+        <P> How to add multiple videos in a website or to make a video gallery</P>
+      </div>
+
+      <div class="small-img-row">
+        <div class="small-img">
+        <img src="media/IMG_20210915_183328.jpg" width="77%" style="height: 120px;">
+        </div>
+        <P> How to add multiple videos in a website or to make a video gallery</P>
+      </div>
+
+      <div class="small-img-row">
+        <div class="small-img">
+        <img src="media/IMG_0773.jpg" width="77%" style="height: 120px;">
+        </div>
+        <P> How to add multiple videos in a website or to make a video gallery</P>
+      </div>
+
+      <div class="isra-wendy-job">
+        <div class="isra-wendy">
+        <img src="media/plaay.png" class="plaay-btn"
+        onclick="playVideo('media/Diamond_Platnumz_-_Jeje_(Official_Music_Video)(480p).mp4')">
+      </div>
+      </div>
+
+      <div class="mugisho-viandu-ciruza">
+        <div class="mugisho-viandu">
+        <img src="media/playy.png" class="playy-btn"
+        onclick="playVideo('media/PSon_-_Sabu_(Official_Video)(360p).mp4')">
+      </div>
+      </div>
+
+      <div class="cubaka-lotoba-sasa">
+        <div class="cubaka-lotoba">
+        <img src="media/pllay.png" class="pllay-btn"
+         onclick="playVideo('media/Proud_of_You_-_Darassa_Ft._Alikiba_(Official_Music_Video)(360p).mp4')">
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="video-player" id="video-player">
+  <video width="100%" controls autoplay id="myVideo">
+    <source src="media/PSon_-__YU__(video_officielle)(360p).mp4" type="video/mp4" src="video/mp4">
+  </video>
+  <img src="media/prescriptions.png" class="pause-btn" style="width: 10px;">
+</div>
+
+<script>
+  var videoPlayer = document.getElementById("video-player");
+  var myVideo = document.getElementById("myVideo")
+  const quite = document.querySelector('.pause-btn')
+        quite.addEventListener('click', stopVideo);
+
+  function stopVideo(){
+    videoPlayer.style.display = "none";
+  }
+
+  function playVideo(file){
+    myVideo.src = file;
+    videoPlayer.style.display = "block";
+  }
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
